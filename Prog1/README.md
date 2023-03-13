@@ -16,6 +16,6 @@ Once you have installed the dependencies, you can run the program by executing t
 python main.py
 ```
 
-The program defines a set of points P, and the number of closest pairs to be found, m, is specified as an argument when instantiating the ClosestPairs class. The closest() method of the ClosestPairs class returns a list of the m closest pairs of points, including their x and y coordinates.
+The program defines a set of points P, and the number of closest pairs to be found, m. The closest() fuction returns a list of the m closest pairs of points, including their x and y coordinates.
 
 For more information about how to use the program, please refer to the comments in the source code.
