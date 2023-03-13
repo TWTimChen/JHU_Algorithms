@@ -1,6 +1,6 @@
 # Program Assigment - 1
 
-This program is a Python implementation of an algorithm to find the m closest pairs of points in a set of n points in a two-dimensional plane. The algorithm uses a divide-and-conquer approach that runs in `O(n log n)` time.
+This program is a Python implementation of an algorithm to find the m closest pairs of points in a set of n points in a two-dimensional plane. The algorithm uses a divide-and-conquer approach that runs in `O(n^2logn)` time.
 
 To run the program, you will need Python 3 installed on your computer. You can install the required dependencies by running the following command in the terminal:
 
