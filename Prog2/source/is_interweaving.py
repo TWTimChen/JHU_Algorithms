@@ -8,6 +8,7 @@ def is_interweaving(s, x, y):
 
         for i in range(lx+1):
             for j in range(ly+1):
+                comparisons += 1
                 # two empty strings have an empty string
                 # as interleaving
                 if (i == 0 and j == 0):
@@ -43,7 +44,7 @@ def is_interweaving(s, x, y):
                     y[j - 1] == s[i + j - 1]):
                     dp[i][j] = (dp[i - 1][j] or dp[i][j - 1])
         if dp[lx][ly]:
-            return True
+            return True, comparisons
         s = s[1:]
 
-    return False
+    return False, comparisons
